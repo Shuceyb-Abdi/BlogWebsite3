@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Header from './Components/Header'
 import Herosection from './Components/Herosection'
+import Footer from './Components/Footer'
 
 export default function App() {
   useEffect(()=>{
@@ -8,8 +9,11 @@ export default function App() {
   },[])
   return (
     <div>
+
       <Header/>
       <Herosection/>
+      <Footer/>
+      
     </div>
   )
 }
