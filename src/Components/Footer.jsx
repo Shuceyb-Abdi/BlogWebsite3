@@ -7,23 +7,27 @@ const Footer = () => {
         <div>
           <h2 className="text-2xl font-bold mb-4">Blog Website</h2>
           <p className="mb-4">
-            Welcome to our Blog Website! Dive into a universe of captivating content, insightful articles, and expert tips that keep you informed and inspired.
+            Welcome to our Blog Website! Dive into,
+            <p> universe of captivating content, a </p>
+            <p>insightful articles, and expert tips that keep you informed and inspired.</p>
           </p>
         </div>
         <div>
-          <h2 className="text-xl font-bold mb-4">Quick Links</h2>
+           
+          <h2 className="text-xl font-bold mb-4"> <center>Quick Links </center></h2>
           <ul className="flex flex-wrap space-x-4">
             <li><a href="/" className="hover:underline">Home</a></li>
             <li><a href="/about" className="hover:underline">About</a></li>
             <li><a href="/blog" className="hover:underline">Blog</a></li>
             <li><a href="/categories" className="hover:underline">Categories</a></li>
             <li><a href="/contact" className="hover:underline">Contact</a></li>
+            
           </ul>
         </div>
         <div>
           <h2 className="text-xl font-bold mb-4">Follow Us</h2>
           <div className="flex space-x-4">
-            <a href="https://facebook.com" className="hover:text-gray-400">
+            <a href="https://www.facebook.com/shuceyb.abdimohamed"  className="hover:text-gray-400">
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M22 12.073C22 5.421 17.074.5 10.5.5S-.002 5.421-.002 12.073c0 5.956 4.34 10.872 10.02 11.712v-8.29H7.15v-3.42h2.868v-2.083c0-2.843 1.703-4.418 4.312-4.418 1.251 0 2.557.225 2.557.225v2.814h-1.44c-1.419 0-1.86.88-1.86 1.78v2.091h3.158l-.505 3.42H13.587v8.29C19.267 22.945 22 18.029 22 12.073z" />
               </svg>
