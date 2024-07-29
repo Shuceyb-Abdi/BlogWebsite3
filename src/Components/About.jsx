@@ -9,10 +9,9 @@ export default function About() {
             <h1 className=' text-[3rem] font-Far   '>About <span  className=' text-[#30aa4c] '> Us</span></h1>
            </div>
         <div className=" space-y-7 pt-[3rem] ">
-            <h1 className=' text-[2.8rem] font-Far font-semibold '>Welcome Mosh <span className='text-[#30aa4c] '>Traveling Blog</span></h1>
-            <p className=' text-gray-600'>We are passionate travelers, adventurers, and storytellers dedicated to <br />
-                bringing you the best tips, guides, and stories from around the world.
-                 Our mission is to inspire and equip you with the </p>
+            <h1 className=' text-[2.8rem] font-Far font-semibold '>Welcome to Blog <span className='text-[#30aa4c] '>Website</span></h1>
+            <p className=' text-gray-600'>Our blog website is built using React.js, a powerful JavaScript library for building user interfaces. We leverage the flexibility and efficiency of React to deliver a seamless and interactive experience for our readers. From dynamic content updates to a responsive design, our platform ensures that you get the best possible browsing experience whether you're on a desktop or mobile device. Join us as we continue to innovate and bring you the latest stories, tips, and adventures from around the world.
+            </p>
                  <button className='py-2 px-5 text-white rounded-md
                   bg-[#28a745] font-semibold  '>Join Our Journey</button>
 
