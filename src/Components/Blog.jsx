@@ -59,7 +59,7 @@ export default function Blog() {
            <img style={{zIndex:0}} className=' absolute left-0 top-6    ' src='' alt="" />
             <input className=' absolute left-[16rem] w-[600px]  pl-3 h-[58px] rounded mt-[3.4rem]
                 ' type="text" placeholder='Enter Your Email' />
-               <button className='py-3 px-8 bg-[#30aa4c] text-white absolute
+               <button className='py-3 px-8 bg-[#f4f7f5] text-gray-600 absolute
                  right-[16.4rem] top-[15.5rem] rounded-md  '>Subscribe</button>
                
                  <img className=' absolute right-0 top-4' src='' alt="" />
