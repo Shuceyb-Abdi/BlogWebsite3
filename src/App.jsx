@@ -6,6 +6,7 @@ import Blog from './Components/Blog'
 import Categories from './Components/Categories'
 import Hpage from './Pages/Hpage'
 import Footer from './Components/Footer'
+import Contact from './Components/Contect'
 
 export default function App() {
   useEffect(()=>{
