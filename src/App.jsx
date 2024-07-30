@@ -1,27 +1,35 @@
 import React, { useEffect } from 'react'
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import Header from './Components/Header'
-import Herosection from './Components/Herosection'
-import Footer from './Components/Footer'
 import About from './Components/About'
 import Blog from './Components/Blog'
-import Contact from './Components/Contact'
 import Categories from './Components/Categories'
+import Hpage from './Pages/Hpage'
+import Footer from './Components/Footer'
 
 export default function App() {
   useEffect(()=>{
   document.body.style.backgroundColor='#f8f9fa'
   },[])
   return (
-     <div>
-
+    <div>
+      <Router>
       <Header/>
-      <Herosection/>
-      <Blog/>
-      <Categories/>
-      <Contact/>
-      <About/>
+        <Routes>
+             <Route path='/' element={<Hpage/>}/>
+             <Route path='/blog' element={<Blog/>}/>
+             <Route path='/about' element={<About/>}/>
+             <Route path='/Categories' element={<Categories/>}/>
+             <Route path='/Categories' element={<Categories/>}/>
+             <Route path='/contect' element={<Contact/>}/>
+        </Routes>
+        <Footer/>
+      </Router>
+     
+     
       
-      <Footer/>
+     
+
     </div>
   )
 }

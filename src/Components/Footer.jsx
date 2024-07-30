@@ -17,8 +17,8 @@ const Footer = () => {
           <h2 className="text-xl font-bold mb-4"> <center>Quick Links </center></h2>
           <ul className="flex flex-wrap space-x-4">
             <li><a href="/" className="hover:underline">Home</a></li>
-            <li><a href="/about" className="hover:underline">About</a></li>
             <li><a href="/blog" className="hover:underline">Blog</a></li>
+            <li><a href="/about" className="hover:underline">About</a></li>
             <li><a href="/categories" className="hover:underline">Categories</a></li>
             <li><a href="/contact" className="hover:underline">Contact</a></li>
             
