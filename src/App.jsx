@@ -4,9 +4,9 @@ import Header from './Components/Header'
 import About from './Components/About'
 import Blog from './Components/Blog'
 import Categories from './Components/Categories'
-import Hpage from './Pages/Hpage'
+import Contect from './Components/Contect'
 import Footer from './Components/Footer'
-import Contact from './Components/Contect'
+import Mainpage from './Pages/Mainpage'
 
 export default function App() {
   useEffect(()=>{
@@ -17,17 +17,17 @@ export default function App() {
       <Router>
       <Header/>
         <Routes>
-             <Route path='/' element={<Hpage/>}/>
+             <Route path='/' element={<Mainpage/>}/>
              <Route path='/blog' element={<Blog/>}/>
              <Route path='/about' element={<About/>}/>
              <Route path='/Categories' element={<Categories/>}/>
              <Route path='/Categories' element={<Categories/>}/>
-             <Route path='/contect' element={<Contact/>}/>
+             <Route path='/contect' element={<Contect/>}/>
         </Routes>
         <Footer/>
       </Router>
-
-
-    </div>
+     
+     
+     </div>
   )
 }

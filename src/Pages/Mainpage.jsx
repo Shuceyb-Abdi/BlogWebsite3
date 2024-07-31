@@ -3,16 +3,16 @@ import Herosection from '../Components/Herosection'
 import Blog from '../Components/Blog'
 import About from '../Components/About'
 import Categories from '../Components/Categories'
-import Contect from '../Components/Contect'
+import Contact from '../Components/Contect'
 
-export default function Hpage() {
+export default function Mainpage() {
   return (
     <div>
-    <Herosection/>
-    <Blog/>
-    <About/>
-    <Categories/>
-    <Contect/>
+        <Herosection/>
+        <Blog/>
+        <About/>
+        <Categories/>
+        <Contact/>
     </div>
   )
 }

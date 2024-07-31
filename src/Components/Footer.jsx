@@ -1,56 +1,33 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaInstagram, FaTiktok,} from 'react-icons/fa';
 
-function Footer() {
+export default function Footer() {
   return (
-    <footer className="bg-green-500 text-white p-4 text-center">
-      <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          <div>
-            <h3 className="text-lg font-bold mb-2">About Us</h3>
-            <p>Welcome to our blog! We are a passionate team dedicated to sharing insightful and engaging content on a variety of topics.</p>
-          </div>
-          <div>
-            <h3 className="text-lg font-bold mb-2">Quick Links</h3>
-            <ul>
-              <li><a href="#" className="hover:underline">Home</a></li>
-              <li><a href="#" className="hover:underline">About Us</a></li>
-              <li><a href="#" className="hover:underline">Contact Us</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-lg font-bold mb-2">Contact Us</h3>
-            <p>
-              <a href="mailto:info@example.com" className="hover:underline">shuceybabdi361@gmail.com</a>
-              <br />
-              <a href="tel:+15551234567" className="hover:underline">+252612998800</a>
-            </p>
-          </div>
-          <div>
-            <h3 className="text-lg font-bold mb-4">Follow Us</h3>
-           <div className="flex space-x-5 mb-4 md:mb-0">
-          <a href="https://facebook.com" className="hover:text-gray-200">
-            <FaFacebookF size={24} />
-          </a>
-          <a href="https://twitter.com" className="hover:text-gray-200">
-            <FaTwitter size={24} />
-          </a>
-          <a href="https://instagram.com" className="hover:text-gray-200">
-            <FaInstagram size={24} />
-          </a>
-          <a href="https://tiktok.com" className="hover:text-gray-200">
-            <FaTiktok size={24} />
-          </a>
+    <footer className="bg-green-600 text-white py-8">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-8">
+          <h1 className="text-3xl font-bold mb-4">Blog Website</h1>
+          <p className="text-white max-w-xl mx-auto">
+          Our blog website is built using React.js, a powerful JavaScript library for building user interfaces. We leverage the flexibility and efficiency of React to deliver a seamless and interactive experience for our readers. From dynamic content updates to a responsive design, our platform ensures that you get the best possible browsing experience whether you're on a desktop or mobile device. Join us as we continue to innovate and bring you the latest stories, tips, and adventures from around the world.
+          
+          </p>
         </div>
-
-          </div>
+        <div className="flex justify-center space-x-6 mb-8">
+          <a href="#" className="text-white hover:text-gray-400"><i className="fab fa-facebook-f"></i></a>
+          <a href="#" className="text-white hover:text-gray-400"><i className="fab fa-twitter"></i></a>
+          <a href="#" className="text-white hover:text-gray-400"><i className="fab fa-google-plus-g"></i></a>
+          <a href="#" className="text-white hover:text-gray-400"><i className="fab fa-youtube"></i></a>
+          <a href="#" className="text-white hover:text-gray-400"><i className="fab fa-linkedin-in"></i></a>
         </div>
-        <div className="mt-4 text-sm">
-          &copy; {new Date().getFullYear()} Blog Website
+        <div className="flex justify-between items-center text-sm text-white">
+          <span>Copyright ©2024 <a href="#" className="text-white hover:underline">Blog Website</a></span>
+          <div className="space-x-4">
+            <a href="#" className="hover:underline">Home</a>
+            <a href="#" className="hover:underline">About</a>
+            <a href="#" className="hover:underline">Contact</a>
+            <a href="#" className="hover:underline">Blog</a>
+          </div>
         </div>
       </div>
     </footer>
-  );
+  );
 }
-
-export default Footer;
