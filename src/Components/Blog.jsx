@@ -51,23 +51,7 @@ export default function Blog() {
                 <p className=' text-gray-400'>Aug 12, 2024</p>
                </div>
             </div>
-        </div>
-
-         <div className=" mt-[6rem] w-[1107px] h-[390px] bg-[#30aa4c] rounded-[1rem] mx-auto relative  ">
-           <div className=" pt-[4rem]   ">
-           <h1 className='text-center  text-[2.6rem] text-white font-semibold font-Far '>Subscribe and get exclusive <br /> deals & offer</h1>
-           <img style={{zIndex:0}} className=' absolute left-0 top-6    ' src='' alt="" />
-            <input className=' absolute left-[16rem] w-[600px]  pl-3 h-[58px] rounded mt-[3.4rem]
-                ' type="text" placeholder='Enter Your Email' />
-               <button className='py-3 px-8 bg-[#f4f7f5] text-gray-600 absolute
-                 right-[16.4rem] top-[15.5rem] rounded-md  '>Subscribe</button>
-               
-                 <img className=' absolute right-0 top-4' src='' alt="" />
-
-
-           </div>
-            
-        </div>
+        </div>     
     </div>
   )
 }
